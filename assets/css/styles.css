@@ -340,3 +340,35 @@ z-index: var(--z-fixed);
   left: 0;
   z-index: -1;
 }
+/*========== FAVORITE ==========*/
+
+.favorite__container{
+  padding-top: 2rem;
+}
+
+.favorite__article{
+  width: 220px;
+  display: grid;
+  justify-items: center;
+  filter: blur(8px);
+  scale: .8; 
+  transition:  filter .3s, scale .3s;
+}
+
+.favorite__img{
+  width: 220px;
+  margin-block: 1.5rem;
+}
+
+.favorite__model{
+  background: var(--gradient-color);
+  padding: .5rem 1.5rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+}
+/* SWIPER */
+.swiper-slide-active,
+.swiper-slide-duplicate-active{
+  filter: blur(0);
+  scale: 1;
+}
