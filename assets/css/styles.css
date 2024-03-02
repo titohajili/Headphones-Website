@@ -601,3 +601,7 @@ z-index: var(--z-fixed);
  .show-scroll{
   bottom: 3rem;
  }
+
+ .active-link{
+  color: var(--first-color);
+ }
